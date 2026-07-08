@@ -1,5 +1,5 @@
 #topbar {
-	height: 50px;
+	height: 45px;
 	background-color: AntiqueWhite;
 	position: fixed;
 	margin: 0;
@@ -10,5 +10,9 @@
 }
 
 #content {
-	margin-top: 65px;
+	margin-top: 60px;
+}
+
+#header {
+	
 }
