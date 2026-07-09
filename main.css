@@ -20,7 +20,7 @@
 
 #toolbar-seperator {
 	display: flex;
-	height: 15px;
+	height: 27px;
 	border-top: 2px solid Peru;
 	border-bottom: 2px solid Peru;
 	left: 0;
@@ -35,8 +35,9 @@
 }
 
 #sep-middle {
-	background-color: green;
-	width: 150px;
+	width: auto;
+	background-color: white;
+	padding: 1px;
 }
 
 #sep-right {
