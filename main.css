@@ -1,6 +1,7 @@
 #topbar {
+	display: flex;
 	height: 45px;
-	background-color: AntiqueWhite;
+	background-color: White;
 	position: fixed;
 	margin: 0;
 	padding: 5px;
@@ -14,5 +15,24 @@
 }
 
 #header {
-	
+	margin: 12px;
+}
+
+#toolbar-seperator {
+	display: flex;
+	height: 15px;
+	border-top: 2px solid Peru;
+	border-bottom: 2px solid Peru;
+}
+
+#sep-left {
+	background-color: red;
+}
+
+#sep-middle {
+	background-color: green;
+}
+
+#sep-right {
+	background-color: blue;
 }
