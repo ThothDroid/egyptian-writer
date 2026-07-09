@@ -25,18 +25,21 @@
 	border-bottom: 2px solid Peru;
 	left: 0;
 	right: 0;
-	top: 45px;
+	top: 55px;
 	position: fixed;
 }
 
 #sep-left {
 	background-color: red;
+	flex-grow: 1;
 }
 
 #sep-middle {
 	background-color: green;
+	width: 150px;
 }
 
 #sep-right {
 	background-color: blue;
+	flex-grow: 1;
 }
