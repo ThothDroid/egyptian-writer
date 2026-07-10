@@ -44,3 +44,9 @@
 	background-color: blue;
 	flex-grow: 1;
 }
+
+#footer {
+ background-color: AntiqueWhite;
+ margin: 0;
+ padding-top: 15px;
+}
