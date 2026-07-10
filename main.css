@@ -29,23 +29,31 @@
 	position: fixed;
 }
 
-#sep-left, #sep-left-left {
-	background-color: AntiqueWhite;
-	flex-grow: 1;
+#sep-left, #sep-right {
+	width: auto;
+	background-color: #fcf4e8;
+	padding: 1mm;
+	overflow: hidden;
 }
 
 #sep-middle {
 	width: auto;
-	background-color: white;
+	background-color: #fcf4e8;
 	padding: 1mm;
 }
 
-#sep-right, #sep-right-right {
-	background-color: AntiqueWhite;
+#sep-left-left {
+	text-align: right;
+}
+
+#sep-left-left, #sep-right-right {
+	background-color: #fcf4e8;
 	flex-grow: 1;
+	padding: 1mm;
+	overflow: hidden;
 }
 
 #footer {
- background-color: AntiqueWhite;
+ background-color: #fcf4e8;
  margin-top: 8mm;
 }
