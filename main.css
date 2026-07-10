@@ -21,8 +21,8 @@
 #toolbar-seperator {
 	display: flex;
 	height: 9mm;
-	border-top: 1mm solid Peru;
-	border-bottom: 1mm solid Peru;
+	border-top: 1mm solid #cd853f;
+	border-bottom: 1mm solid #cd853f;
 	left: 0;
 	right: 0;
 	top: 16mm;
