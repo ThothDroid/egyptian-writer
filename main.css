@@ -1,52 +1,51 @@
 #topbar {
 	display: flex;
-	height: 45px;
+	height: 12mm;
 	background-color: White;
 	position: fixed;
 	margin: 0;
-	padding: 5px;
+	padding: 2mm;
 	left: 0;
 	right: 0;
 	top: 0;
 }
 
 #content {
-	margin-top: 75px;
+	margin-top: 28mm;
 }
 
 #header {
-	margin: 12px;
+	margin: 3.5mm;
 }
 
 #toolbar-seperator {
 	display: flex;
-	height: 27px;
-	border-top: 2px solid Peru;
-	border-bottom: 2px solid Peru;
+	height: 9mm;
+	border-top: 1mm solid Peru;
+	border-bottom: 1mm solid Peru;
 	left: 0;
 	right: 0;
-	top: 55px;
+	top: 16mm;
 	position: fixed;
 }
 
 #sep-left {
-	background-color: red;
+	background-color: AntiqueWhite;
 	flex-grow: 1;
 }
 
 #sep-middle {
 	width: auto;
 	background-color: white;
-	padding: 1px;
+	padding: 1mm;
 }
 
 #sep-right {
-	background-color: blue;
+	background-color: AntiqueWhite;
 	flex-grow: 1;
 }
 
 #footer {
  background-color: AntiqueWhite;
- margin: 0;
- padding-top: 15px;
+ margin-top: 8mm;
 }
