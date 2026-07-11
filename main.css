@@ -20,7 +20,7 @@
 }
 
 body {
-	font-family: Telex, sans-serif;
+	font-family: Noto Sans, sans-serif;
 }
 
 
@@ -46,7 +46,7 @@ body {
 	font-weight: 700;
 }
 
-#toolbar-seperator {
+#topbar-seperator {
 	display: flex;
 	height: 9mm;
 	border-top: 1mm solid #cd853f;
