@@ -1,20 +1,20 @@
 @font-face {  
   font-family: 'Noto Sans';
-  src: url('/egyptian-writer/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('/egyptian-writer/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
 
 @font-face {  
   font-family: 'Noto Sans';
-  src: url('/egyptian-writer/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+  src: url('/egyptian-writer/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: italic;
 }
 
 @font-face {  
   font-family: 'Noto Sans KR';
-  src: url('/egyptian-writer/fonts/Noto_Sans_KR/NotoSansKR-VariableFont_wght.ttf') format('truetype'); 
+  src: url('/egyptian-writer/fonts/NotoSansKR-VariableFont_wght.ttf') format('truetype'); 
   font-weight: 100 900;
   font-style: normal;
 }
