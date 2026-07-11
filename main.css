@@ -29,6 +29,7 @@ body {
 	height: 12mm;
 	background-color: White;
 	position: fixed;
+	align-items: center;
 	margin: 0;
 	padding: 2mm;
 	left: 0;
@@ -41,7 +42,8 @@ body {
 }
 
 #header {
-	margin: 3.5mm;
+	margin: 0;
+	margin-left: 2mm;
 	font-family: Noto Sans KR, Noto Sans, sans-serif;
 	font-weight: 700;
 }
