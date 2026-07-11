@@ -30,10 +30,9 @@
 }
 
 #sep-left, #sep-right {
-	width: auto;
+	inline-size: min-content;
 	background-color: #fcf4e8;
 	padding: 1mm;
-	overflow: hidden;
 }
 
 #sep-middle {
@@ -49,8 +48,14 @@
 #sep-left-left, #sep-right-right {
 	background-color: #fcf4e8;
 	flex-grow: 1;
-	padding: 1mm;
+	padding-top: 1mm;
+	padding-bottom: 1mm;
 	overflow: hidden;
+	white-space: nowrap;
+}
+
+img.sep {
+	margin-left: 1mm;
 }
 
 #footer {
