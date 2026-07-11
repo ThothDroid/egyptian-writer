@@ -53,6 +53,11 @@ img.download-badge {
 	font-weight: 700;
 }
 
+#github-icon {
+	margin-right: 2mm;
+	margin-left: 2mm;
+}
+
 #topbar-seperator {
 	display: flex;
 	height: 9mm;
@@ -103,4 +108,10 @@ img.sep {
 	margin-top: 8mm;
 	padding: 2mm;
 	padding-bottom: 10mm;
+}
+
+@media (max-width: 370px){
+	#header{
+		display: none;
+	}
 }
