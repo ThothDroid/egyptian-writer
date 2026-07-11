@@ -29,6 +29,10 @@
 	position: fixed;
 }
 
+#sep-left, #sep-left-left {
+	direction: rtl;
+}
+
 #sep-left, #sep-right {
 	inline-size: min-content;
 	background-color: #fcf4e8;
@@ -39,10 +43,6 @@
 	width: auto;
 	background-color: #fcf4e8;
 	padding: 1mm;
-}
-
-#sep-left-left {
-	text-align: right;
 }
 
 #sep-left-left, #sep-right-right {
