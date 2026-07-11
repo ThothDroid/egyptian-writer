@@ -1,26 +1,30 @@
-@font-face {  
-  font-family: 'Noto Sans';
-  src: url('/egyptian-writer/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('/egyptian-writer/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
 }
 
-@font-face {  
-  font-family: 'Noto Sans';
-  src: url('/egyptian-writer/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: italic;
+@font-face {
+	font-family: 'Noto Sans';
+	src: url('/egyptian-writer/fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: italic;
 }
 
-@font-face {  
-  font-family: 'Noto Sans KR';
-  src: url('/egyptian-writer/fonts/NotoSansKR-VariableFont_wght.ttf') format('truetype'); 
-  font-weight: 100 900;
-  font-style: normal;
+@font-face {
+	font-family: 'Noto Sans KR';
+	src: url('/egyptian-writer/fonts/NotoSansKR-VariableFont_wght.ttf') format('truetype'); 
+	font-weight: 100 900;
+	font-style: normal;
 }
 
 body {
 	font-family: Noto Sans, sans-serif;
+}
+
+div.maxlength {
+	flex-grow: 1;
 }
 
 
@@ -35,10 +39,6 @@ body {
 	left: 0;
 	right: 0;
 	top: 0;
-}
-
-#content {
-	margin-top: 28mm;
 }
 
 #header {
@@ -88,7 +88,11 @@ img.sep {
 	margin-left: 1mm;
 }
 
+#content {
+	margin-top: 28mm;
+}
+
 #footer {
- background-color: #fcf4e8;
- margin-top: 8mm;
+	background-color: #fcf4e8;
+	margin-top: 8mm;
 }
