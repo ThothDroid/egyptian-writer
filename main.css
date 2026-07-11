@@ -21,6 +21,7 @@
 
 body {
 	font-family: Noto Sans, sans-serif;
+	margin: 0;
 }
 
 div.maxlength {
@@ -89,6 +90,7 @@ img.sep {
 }
 
 #content {
+	margin: 2mm;
 	margin-top: 28mm;
 }
 
