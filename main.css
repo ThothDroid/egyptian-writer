@@ -28,6 +28,10 @@ div.maxlength {
 	flex-grow: 1;
 }
 
+img.download-badge {
+	height: 12mm;
+}
+
 
 #topbar {
 	display: flex;
@@ -97,4 +101,6 @@ img.sep {
 #footer {
 	background-color: #fcf4e8;
 	margin-top: 8mm;
+	padding: 2mm;
+	padding-bottom: 10mm;
 }
