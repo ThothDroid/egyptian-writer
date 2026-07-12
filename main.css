@@ -102,9 +102,22 @@ img.sep {
 	margin-left: 1mm;
 }
 
+#left-sidebar {
+	margin-top: 30mm;
+	width: 20%;
+	height: 200px;
+	background-color: AntiqueWhite;
+	position: fixed;
+	left: 2mm;
+	right: 0;
+	top: 0;
+}
+
 #content {
 	margin: 2mm;
-	margin-top: 28mm;
+	margin-top: 30mm;
+	margin-left: 20%;
+	padding-left: 4mm;
 }
 
 #footer {
