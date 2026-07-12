@@ -24,6 +24,10 @@ body {
 	margin: 0;
 }
 
+h4 {
+	margin-bottom: 0px;
+}
+
 div.maxlength {
 	flex-grow: 1;
 }
