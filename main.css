@@ -48,6 +48,7 @@ img.download-badge {
 	left: 0;
 	right: 0;
 	top: 0;
+	z-index: 999;
 }
 
 #header {
@@ -71,6 +72,7 @@ img.download-badge {
 	right: 0;
 	top: 16mm;
 	position: fixed;
+	z-index: 998;
 }
 
 #sep-left, #sep-left-left {
@@ -102,22 +104,23 @@ img.sep {
 	margin-left: 1mm;
 }
 
+#meta-content {
+	display: flex;
+}
+
 #left-sidebar {
-	margin-top: 30mm;
+	height: calc(100vh - 35mm);
 	width: 20%;
-	height: 200px;
 	background-color: AntiqueWhite;
-	position: fixed;
+	position: sticky;
 	left: 2mm;
-	right: 0;
-	top: 0;
+	top: 30mm;
 }
 
 #content {
-	margin: 2mm;
+	width: 80%;
+	margin: 4mm;
 	margin-top: 30mm;
-	margin-left: 20%;
-	padding-left: 4mm;
 }
 
 #footer {
