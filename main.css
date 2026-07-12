@@ -109,12 +109,15 @@ img.sep {
 }
 
 #left-sidebar {
-	height: calc(100vh - 35mm);
+	height: calc(100vh - 37mm);
 	width: 20%;
 	background-color: AntiqueWhite;
 	position: sticky;
 	left: 2mm;
 	top: 30mm;
+	border-radius: 6mm;
+	border: 0.75mm solid #cd853f;
+	padding: 2mm;
 }
 
 #content {
