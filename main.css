@@ -118,6 +118,7 @@ img.sep {
 	border-radius: 6mm;
 	border: 0.75mm solid #cd853f;
 	padding: 2mm;
+	overflow: auto;
 }
 
 #content {
