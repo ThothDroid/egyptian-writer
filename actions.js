@@ -1,5 +1,5 @@
 var div = document.getElementById('button-sidebar');
 
 div.addEventListener('click', function (event) {
-    div.style.backgroundColor = 'black'
+    div.style.backgroundColor = 'black';
 });
